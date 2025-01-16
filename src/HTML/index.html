@@ -3,35 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolium</title>
+    <title>Inicio</title>
 
-    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="/src/CSS/style.css" />
+    <link rel="stylesheet" href="/src/CSS/media.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap"
-      rel="stylesheet"
-    />
   </head>
-  <body>
-    <header>
-      <nav id="navbar">
-        <a class="nav-brand" href="#">Joaquim Renato</a>
 
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a href="#">Palestras</a>
-          </li>
-          <li class="nav-item">
-            <a href="#">Contato</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+  <body style="background-color: #eaa9ac;">
+    <div class="navbar">
+      <div class="navbar-container">
+          <a href="/src/HTML/index.html" class="logo" alt="Logotipo do site">
+              <img src="" alt="Logotipo" />
+          </a>
+
+
+          <ul class="nav-links" id="navLinks">
+              <li><a href="/src/html/index.html">Início</a></li>
+              <li><a href="/src/HTML/sobre.html">Sobre mim </a></li>
+              <li><a href="">O que eu faço</a></li>
+              <li><a href="/src/HTML/contato.html">Contato</a></li>
+          </ul>
+      </div>
+  </div>
+  <button class="hamburger" id="hamburguer" aria-label="Abrir menu">
+      ☰
+      <span class="line line1"></span>
+      <span class="line line2"></span>
+      <span class="line line3"></span>
+  </button>
+  </div>
+</nav>
 
     <main>
       <section id="banner">
@@ -84,6 +86,10 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <p>2024 - Todos os direitos reservados</p>
+        <p>Entre em contato pelo email : jocajoaquimas@gmail.com</p>
+    </footer>
+    <script src="/src/js/script.js"></script>
   </body>
 </html>

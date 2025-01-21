@@ -92,8 +92,8 @@ html {
 
 /* Estilo do menu hambúrguer */
 .hamburger {
-    display: none;
-    
+
+    display: none;   
     position: absolute;
     font-size: 1.5rem;
     background: none;
@@ -101,7 +101,6 @@ html {
     top: 30px; /* Ajuste para o canto superior */
     right: 10px; /* Ajuste para o canto direito */
     z-index: 1500; /* Certifique-se de que está acima de outros elementos */
-    cursor: pointer;  /* Adiciona o ícone de "mãozinha" */
     color: blueviolet;
     
 }

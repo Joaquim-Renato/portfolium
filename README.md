@@ -19,8 +19,7 @@ Cada projeto reflete a busca por soluções criativas e práticas que ajudam a m
 Além disso, este portfólio também funciona como o meu currículo online, oferecendo uma visão mais detalhada sobre minha formação, experiência e habilidades, além de servir como uma vitrine para os projetos nos quais estou trabalhando ou já concluí. Isso me permite compartilhar meu progresso e mostrar o impacto do meu aprendizado de forma interativa e acessível.
 
 ## Estrutura do Projeto
-
-Cada projeto dentro deste repositório será documentado com informações sobre seu propósito, tecnologias utilizadas e como executá-lo localmente. Alguns projetos podem incluir desafios específicos ou soluções para problemas técnicos.
+em contrução 
 
 ## Como Rodar os Projetos Localmente
 

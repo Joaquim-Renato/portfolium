@@ -1,20 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/src/favicons/contato.png" type="image/x-icon">
-    <title>Mídia e contatos</title>
+    <link rel="shortcut icon" href="/src/favicons/o-circuito.png" type="image/x-icon">
+    <title>Sobre Joaquim</title>
+
+    <link rel="stylesheet" href="/src/CSS/style.css" />
+    <link rel="stylesheet" href="/src/CSS/media.css">
+
+    
 </head>
-<body>
-    <H1>Você pode me contatar por aqui</H1>
 
-    <p>
-        Tel
-        email
-        linkedin
+<body style="background-color: #f3f8c7;">
+    <div class="navbar">
+        <div class="navbar-container">
+            <a href="/src/HTML/index.html" class="logo" alt="Logotipo do site">
+                <img src="" alt="Logotipo" />
+            </a>
+  
+  
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/src/html/index.html" >Início</a></li>
+                <li><a href="/src/HTML/sobre.html">Sobre mim </a></li>
+                <li><a href="/src/HTML/curriculo.html">Currículo</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="/src/HTML/contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+    <button class="hamburger" id="hamburguer" aria-label="Abrir menu">
+        ☰
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+    </button>
+    </div>
+  </nav>
+  <br><br> <br><br><br>
+<main>
+    <H1>Contato</H1>
 
-
-    </p>
+    <div class="buttons">
+        <a href="https://www.linkedin.com/in/joaquim-renato-alves-de-souza-46501015b/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Joaquim-Renato" target="_blank">GitHub</a>
+        <a href="mailto:jocajoaquimas@gmail.com">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+    
+    </main>
+        <footer>
+            <p>2024 - Todos os direitos reservados</p>
+              <p>Entre em contato pelo email : jocajoaquimas@gmail.com</p>
+          </footer>
+          <script src="/src/js/script.js"></script>
+          <style>
+            .buttons {
+                display: flex;
+                gap: 10px; /* Espaçamento entre os ícones */
+                justify-content: center;
+                margin-top: 20px;
+            }
+            .buttons a {
+                text-decoration: none;
+                color: #333; /* Cor padrão dos ícones */
+                font-size: 2em; /* Tamanho dos ícones */
+                transition: color 0.3s; /* Animação ao passar o mouse */
+            }
+            .buttons a:hover {
+                color: #0DA2D4; /* Cor ao passar o mouse */
+            }
+        </style>
 </body>
 </html>

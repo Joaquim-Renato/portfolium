@@ -1,6 +1,3 @@
-# portfolium
-isso e um teste
-
 
 # Portfólio de Desenvolvimento - Joaquim Renato Alves de Souza
 

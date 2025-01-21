@@ -14,11 +14,14 @@ HEAD
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; /* Inclui bordas e padding no cálculo do tamanho */
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
+  overflow-x: hidden; /* Evita rolagem horizontal */
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180deg, #eaa9ac, #b7d5e5); /* Um gradiente sutil */
 }
 
 
@@ -35,9 +38,8 @@ html {
     align-items: center;
     font-family:  'Poppins', sans-serif;
     position: absolute; 
-    background-color: #b7d5e5; /* Cor da navbar */
-    color: black;
-   
+    background-color: #4A4E69; /* Cor da navbar */
+    color: white;
     font-size: 0.9rem; /* Ajusta o tamanho da fonte para menor */
     line-height: 1.2; /* Reduz a altura das linhas */
     width: 100%;
@@ -76,7 +78,7 @@ html {
 
 .nav-links a {
     text-decoration: none;
-    color: #1C1570;
+    color: white;
     font-size: 20px; /* Aumente o valor para ajustar o tamanho  da fonte */
     font-weight: bold; /* Torna o texto mais visível  */
     transition: color 0.3s ease;
@@ -101,14 +103,14 @@ html {
     top: 30px; /* Ajuste para o canto superior */
     right: 10px; /* Ajuste para o canto direito */
     z-index: 1500; /* Certifique-se de que está acima de outros elementos */
-    color: blueviolet;
+    color: w;
     
 }
 
 .hamburger .line {
     width: 30px; /* Ajusta a largura das linhas */
     height: 3px; /* Ajusta a altura das linhas */
-    background-color: blueviolet; /* Cor das linhas */
+    background-color: #4A4E69; /* Cor das linhas */
     margin: 5px 0; /* Espaçamento entre as linhas */
     border-radius: 3px; /* Torna as bordas das linhas arredondadas */
     transition: all 0.3s ease; /* Adiciona suavidade ao abrir/fechar */
@@ -192,8 +194,8 @@ section #posts .posts-content .posts-content-header .section-title {
 }
 
 footer {
-    background-color: #b7d5e5; /* Cor do rodapé */;
-    color: #1C1570; /* Cor do texto */
+    background-color: #4A4E69; /* Cor do rodapé */;
+    color: #FFFFFF; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 5px; /* Espaçamento interno */
     width: 100%; /* Largura total da página */

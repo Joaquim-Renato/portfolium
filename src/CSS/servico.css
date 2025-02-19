@@ -70,7 +70,6 @@ html {
     
 }
 
-
 .nav-links li {
     display: flex;
 }
@@ -130,44 +129,6 @@ main {
 }
 
 
-main #banner {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  padding: 0 2rem;
-  margin: 0 auto;
-}
-
-main #banner .banner-content .banner-content-title {
-  font-size: 44px;
-  font-weight: 700;
-  line-height: 60px;
-  margin-bottom: 40px;
-}
-
-main #banner .banner-content .banner-content-subtitle {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  max-width: 500px;
-  margin-bottom: 38px;
-}
-
-main #banner .banner-content .banner-content-btn {
-  background-color: #add8e6;
-  color: #333;
-  font-size: 20px;
-  font-weight: 500;
-  border-radius: 2px;
-  padding: 8px 24px;
-  border: none;
-}
-
-main #banner .banner-image {
-  border-radius: 50%;
-  width: 100%;
-  max-width: 400px;
-}
 
 .servico-img {
   max-width: 600px;  /* Define um tamanho máximo para a largura da imagem */
@@ -176,94 +137,6 @@ main #banner .banner-image {
   display: block;    /* Remove espaçamentos indesejados */
   margin: 20px auto; /* Centraliza a imagem na página */
   border-radius: 8px; /* Adiciona cantos arredondados para um visual mais agradável */
-}
-
-/** sec post **/
-
-section #posts {
-  margin-top: 71px;
-  background-color: #add8e6;
-}
-section #posts .posts-content {
-  padding: 0 2rem;
-  max-width: 1200px;
-  margin: 50px;
-}
-
-section #posts .banner-content .posts-content-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 0;
-}
-
-section #posts .posts-content .posts-content-header .section-title {
-  font-size: 22px;
-  font-weight: 500;
-}
-
-#projetos {
-  text-align: center;
-  padding: 50px 20px;
-  background-color: #f3f8c7;
-}
-
-.projetos-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.projeto-card {
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.projeto-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.projeto-img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-.projeto-info {
-  padding: 15px;
-}
-
-.projeto-info h3 {
-  font-size: 1.2rem;
-  color: #1C1570;
-}
-
-.projeto-info p {
-  font-size: 0.9rem;
-  color: #333;
-  margin: 10px 0;
-}
-
-.projeto-link {
-  display: inline-block;
-  background-color: #0DA2D4;
-  color: white;
-  text-decoration: none;
-  padding: 8px 12px;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background 0.3s ease;
-}
-
-.projeto-link:hover {
-  background-color: #097BA1;
 }
 
 
